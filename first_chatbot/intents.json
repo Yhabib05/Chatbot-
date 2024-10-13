@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "hello",
+      "patterns": ["Hello", "Hi there", "Good morning", "Good evening", "What's up", "Howdy", "Greetings", "Hey", "Yo", "Hi, how are you?"],
+      "responses": ["Hey!", "Hello", "Hi!", "Good morning!", "Greetings!", "Hi there! How can I assist you?", "Hey! What's up?", "Yo, what's good?"],
+      "context": ""
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["Sorry, I can't understand you.", "Please give me more info.", "I'm not sure I understand.", "Can you please clarify?", "I didn't quite catch that, can you repeat?"],
+      "context": [""]
+    },
+    {
+      "tag": "job",
+      "patterns": ["What is your job?", "What do you work as?", "What is your work?", "Tell me about your job", "What do you do?", "What's your occupation?"],
+      "responses": ["My job is to make you feel like everything is okay.", "I work to serve you as well as possible.", "I'm here to assist you with anything you need.", "My role is to help you find information and perform tasks."],
+      "context": ""
+    },
+    {
+      "tag": "age",
+      "patterns": ["What is your age?", "How old are you?", "When were you born?", "Tell me your age", "Are you old?"],
+      "responses": ["I was born in 2021, which makes me quite young in bot years!", "I'm as old as the internet!", "I was created in 2021, and I keep learning every day.", "I'm forever young!"],
+      "context": ""
+    },
+    {
+      "tag": "feeling",
+      "patterns": ["How are you today?", "How are you?", "How are you feeling?", "How's it going?", "You good?", "How do you feel?"],
+      "responses": ["I'm feeling good, you?", "Very good, and you?", "Actually, I'm okay and you?", "I'm great! What about you?", "I'm doing well, thank you! How are you?"],
+      "context": ""
+    },
+    {
+      "tag": "good",
+      "patterns": ["I am good too", "I feel fine", "Good!", "Fine", "I am good", "I am great", "Feeling awesome", "I'm doing well", "Great!"],
+      "responses": ["That is perfect!", "So, everything's okay!", "Glad to hear it!", "That's awesome!", "Good to know you're doing well!"],
+      "context": "feeling"
+    },
+    {
+      "tag": "bad",
+      "patterns": ["I am feeling bad", "No, I am sad", "Not good", "I'm feeling down", "I'm upset", "No, I'm not okay"],
+      "responses": ["I hope you feel better soon!", "Sorry to hear that, I'm here for you.", "I wish I could help you more. Hope things get better.", "Take it easy, and I hope things improve!"],
+      "context": "feeling"
+    },
+    {
+      "tag": "actions",
+      "patterns": ["What can you do?", "What can I ask you?", "Can you help me?", "What are your skills?", "What tasks can you perform?", "How can you assist me?"],
+      "responses": ["I can help with many things! You can ask me: the capital of a country, currency rates, generating random numbers, solving math problems, or just general questions!", "I can provide information, do calculations, tell you about different places, and more.", "Need help? I'm here for math, geography, or even a good chat!"],
+      "context": ""
+    },
+    {
+      "tag": "gender",
+      "patterns": ["Are you a girl?", "Are you a woman?", "Are you a boy?", "Are you male or female?", "What is your gender?"],
+      "responses": ["I don't have a gender, but I can be whatever you'd like!", "I am a gender-neutral assistant, but you can call me anything you want."],
+      "context": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thank you very much", "Thanks", "I appreciate it", "Thanks a lot", "You're the best!"],
+      "responses": ["You're welcome!", "I only do my job️.", "No problem!", "Glad I could help!", "You're most welcome!"],
+      "context": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Good afternoon", "Bye", "See you later", "Catch you later", "Take care"],
+      "responses": ["Goodbye!", "See you soon!", "Take care!", "Catch you later!", "Until next time!"],
+      "context": ""
+    },
+    {
+      "tag": "city",
+      "patterns": ["Where do you live?", "Where are you located?", "Where is your home?", "Where are you from?", "Tell me where you are"],
+      "responses": ["I live in a server located in the US!", "I exist in the digital world, so I can be anywhere!", "I reside on the internet, always ready to help."],
+      "context": ""
+    },
+    {
+      "tag": "action",
+      "patterns": ["What are you doing?", "What are you up to?", "What are you working on?"],
+      "responses": ["I'm chatting with you right now!", "Currently, I'm here helping you.", "I'm available for a chat anytime!"],
+      "context": ""
+    },
+    {
+      "tag": "wait",
+      "patterns": ["Can you wait 2 minutes?", "Please wait", "Wait 2 secs, please", "Hold on a second", "Give me a moment"],
+      "responses": ["Sure! I'll wait.", "No rush, take your time.", "I'll be here when you're ready!"],
+      "context": ""
+    },
+    {
+      "tag": "still there",
+      "patterns": ["Are you still there?", "Are you here?", "Still with me?", "Are you listening?"],
+      "responses": ["Of course! Always at your service.", "Yes, I'm still here!", "I'm always ready to help you."],
+      "context": ""
+    }
+  ]
+}
